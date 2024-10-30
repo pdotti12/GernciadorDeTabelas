@@ -1,9 +1,8 @@
 {
-    "builds": [
-      { "src": "app.py", "use": "@vercel/python" }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "app.py" }
-    ]
-  }
-  
+  "builds": [
+    { "src": "dashboard_user.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "dashboard_user.py" }
+  ]
+}
